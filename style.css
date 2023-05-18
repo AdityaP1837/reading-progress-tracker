@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(126, 43, 204);
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 10px 0;
+    color: aqua;
+}
+
+.navbar i {
+    color: orangered;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.counter {
+    background-color: black;
+    margin: 15px 40%;
+    border: 5px solid aqua;
+    border-radius: 20px;
+}
+
+.counter h1 {
+    color: crimson;
+    font-size: 30px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.counter .value {
+    text-align: center;
+    color: chartreuse;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.toggle-btns {
+    display: flex;
+    margin-left: 40.5%;
+}
+
+.toggle-btns .studios {
+    background-color: darkorange;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0 10px;
+    width: fit-content;
+    height: 20px;
+    cursor: pointer;
+}
+
+.active-studios {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.toggle-btns .studios h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*! Events Container */
+.events-read .title {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    background-color: black;
+}
+
+.events-read .title h2 {
+    color: cyan;
+    font-size: 40px;
+    margin: 10px 0;
+    margin-left: 45%;
+}
+
+.events-read .title .total {
+    color: azure;
+    font-size: 25px;
+    margin: 0 0 0 26%;
+}
+
+.events-read .title .total .total-value {
+    color: red;
+}
+
+.events-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 65px;
+}
+
+.events-info-container .box {
+    margin: 25px 25px;
+    background-color: black;
+    border-radius: 10px;
+    width: 240px;
+}
+
+.events-info-container .box img {
+    width: 240px;
+    height: 370px;
+}
+
+.events-info-container .box h3 {
+    color: chartreuse;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.events-info-container .box h4 {
+    color: coral;
+    font-size: 18px;
+    margin: 0 0 0 15px;
+}
+
+.events-info-container .box p {
+    color: coral;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 15px 15px;
+}
+
+.events-info-container .box h4 span,
+.events-info-container .box p span {
+    color: red;
+}
+
+/*! Characters Container */
+.characters-read .title {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    background-color: black;
+}
+
+.characters-read .title h2 {
+    color: cyan;
+    font-size: 40px;
+    margin: 10px 0;
+    margin-left: 45%;
+}
+
+.characters-read .title .total {
+    color: azure;
+    font-size: 25px;
+    margin: 0 0 0 22%;
+}
+
+.characters-read .title .total .total-value {
+    color: red;
+}
+
+.characters-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.characters-info-container .ch-box {
+    margin: 30px 30px;
+    background-color: black;
+    border-radius: 10px;
+    width: 550px;
+}
+
+.characters-info-container .ch-box h3 {
+    color: cyan;
+    font-size: 35px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.characters-info-container .ch-box h4 {
+    color: aliceblue;
+    font-size: 25px;
+    margin: 10px 0 10px 30px;
+}
+
+.characters-info-container .ch-box h4 span {
+    color: red;
+}
+
+.characters-info-container .ch-box img {
+    width: 550px;
+    height: 310px;
+}
+
+/*! All Data Page  */
+.allData {
+    display: flex;
+    align-items: center;
+}
+
+.allData .comicTotalData {
+    background-color: black;
+    padding: 15px;
+    width: 850px;
+    margin: 0 0 30px 4%;
+    position: relative;
+    top: -20px;
+}
+
+.allData .comicTotalData h2 {
+    color: aliceblue;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.allData .comicTotalData table {
+    border-spacing: 0 20px;
+}
+
+.allData .comicTotalData table .headers {
+    color: crimson;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.comicTotalData table tr img {
+    width: 100px;
+}
+
+.comicTotalData table tr {
+    color: chartreuse;
+    font-size: 25px;
+}
+
+.comicTotalData table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.comicTotalData table td h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.allData .characterTotalData {
+    background: black;
+    width: 710px;
+    margin: 0 0 0 6%;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.allData .characterTotalData h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.allData .characterTotalData table {
+    border-spacing: 0 20px;
+}
+
+.allData .characterTotalData table td {
+    color: cyan;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.allData .comicTotalData table .stats-value,
+.allData .characterTotalData table .stats-value {
+    color: red;
+    padding: 0 10px;
+}
+
+.allData .characterTotalData table .stats-studios {
+    font-size: 25px;
+    padding: 0 30px;
+}
+
+.allData .characterTotalData table td h3 {
+    margin: 0 20px 0 5px;
+    color: chartreuse;
+}
+
+.allData .characterTotalData table tr td img {
+    width: 165px;
+    border-radius: 25px;
+}
+
+@media(max-width: 380px) {
+
+    /*! Stats Page  */
+    .allData {
+        display: block;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .counter {
+        margin: 10px 25%;
+    }
+
+    .counter h1 {
+        font-size: 15px;
+    }
+
+    .counter .value {
+        font-size: 20px;
+    }
+
+    .toggle-btns {
+        margin-left: 30px;
+    }
+
+    .toggle-btns .studios .studio {
+        font-size: 15px;
+    }
+
+    .allData .comicTotalData {
+        padding: 0;
+        width: 97%;
+        margin: 10px 0 12px 1%;
+        position: inherit;
+    }
+
+    .allData .comicTotalData h2 {
+        font-size: 24px;
+        padding: 10px 0 0 0;
+    }
+
+    .allData .comicTotalData table .headers {
+        font-size: 15px;
+    }
+
+    .allData .comicTotalData table tr img {
+        width: 40px;
+    }
+
+    .allData .comicTotalData table td {
+        padding: 5px;
+    }
+
+    .allData .comicTotalData table td h3 {
+        font-size: 15px;
+    }
+
+    .allData .comicTotalData table .stats-value {
+        font-size: 15px;
+    }
+
+    .allData .characterTotalData {
+        width: 97% !important;
+        padding: 0 !important;
+        margin: 10px 0 12px 1% !important;
+        position: inherit !important;
+    }
+
+    .allData .characterTotalData h2 {
+        font-size: 24px;
+        padding: 10px 0 0 0;
+    }
+
+    .allData .characterTotalData table {
+        border-spacing: 0 20px;
+    }
+
+    .allData .characterTotalData table tr td img {
+        width: 100px;
+    }
+
+    .allData .characterTotalData table tr td {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .allData .characterTotalData table tr .stats-studios {
+        display: none;
+    }
+
+    /*! Marvel Page  */
+    .events-read .title h2 {
+        font-size: 20px;
+        margin-left: 28%;
+    }
+
+    .events-read .title .total {
+        font-size: 12px;
+        margin: 0 0 0 10%;
+    }
+
+    .events-info-container {
+        margin-left: 20px;
+    }
+
+    .events-info-container .box {
+        margin: 10px;
+        width: 150px;
+    }
+
+    .events-info-container .box img {
+        width: 150px;
+        height: 227px;
+    }
+
+    .events-info-container .box h3 {
+        font-size: 15px;
+    }
+
+    .events-info-container .box h4 {
+        font-size: 12px;
+    }
+
+    .events-info-container .box p {
+        font-size: 12px;
+    }
+
+    .characters-read .title h2 {
+        font-size: 20px;
+        margin-left: 20%;
+    }
+
+    .characters-read .title .total {
+        font-size: 12px;
+        margin: 0 0 0 9%;
+    }
+
+    .characters-info-container {
+        margin-left: 10px;
+        display: block;
+    }
+
+    .characters-info-container .ch-box {
+        margin: 10px 5px;
+        width: 350px;
+    }
+
+    .characters-info-container .ch-box img {
+        width: 350px;
+        height: 196px;
+    }
+
+    .characters-info-container .ch-box h3 {
+        font-size: 15px;
+    }
+
+    .characters-info-container .ch-box h4 {
+        font-size: 12px;
+        padding-bottom: 10px;
+        padding-left: 29%;
+    }
+
+    .characters-info-container .ch-box p {
+        font-size: 12px;
+    }
+}
