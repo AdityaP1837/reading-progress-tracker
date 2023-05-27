@@ -31,7 +31,7 @@ body {
 .counter {
     background-color: black;
     margin: 15px 40%;
-    border: 5px solid aqua;
+    border: 5px solid cornflowerblue;
     border-radius: 20px;
 }
 
@@ -209,7 +209,7 @@ body {
 }
 
 .allData .comicTotalData {
-    background-color: black;
+    background-color: #18223c;
     padding: 15px;
     width: 850px;
     margin: 0 0 30px 4%;
@@ -229,7 +229,7 @@ body {
 }
 
 .allData .comicTotalData table .headers {
-    color: crimson;
+    color: cornflowerblue;
     font-size: 25px;
     font-weight: 900;
 }
@@ -254,7 +254,7 @@ body {
 }
 
 .allData .characterTotalData {
-    background: black;
+    background-color: #18223c;
     width: 710px;
     margin: 0 0 0 6%;
     padding: 15px;
@@ -369,6 +369,7 @@ body {
         padding: 0 !important;
         margin: 10px 0 12px 1% !important;
         position: inherit !important;
+        background-color: #18223c;
     }
 
     .allData .characterTotalData h2 {
